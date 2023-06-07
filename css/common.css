@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+:root {
+  --red: #e35454;
+  --green: #16a085;
+  --black: #444;
+  --light-color: #777;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid var(--light-color);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s ease-out;
+  text-decoration: none;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-padding-top: 7rem;
+  scroll-behavior: smooth;
+  margin-bottom: 0%;
+}
+.notifi-box {
+  display: none;
+}
+.home {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0%;
+  padding-top: 15rem;
+  padding-bottom: 45rem;
+  background-color: var(--background);
+}
+
+.header {
+  padding: 2rem 9%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(251, 251, 251);
+}
+.header .logo {
+  font-size: 2.5rem;
+  color: var(--black);
+}
+.logo i {
+  color: var(--red);
+}
+.navbar a {
+  font-size: 1.7rem;
+  color: var(--light-color);
+  margin-left: 2rem;
+}
+.navbar a:hover {
+  color: var(--red);
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+button {
+  width: 60px;
+  height: 40px;
+  background-color: var(--white);
+}
+button:hover {
+  background-color: #e35454;
+}
+i {
+  color: #e35454;
+}
+
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+  .btn {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .navbar {
+    position: absolute;
+    top: 115%;
+    right: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    width: 30rem;
+    border: var(--border);
+    background: #fff;
+    transform: scale(0);
+    opacity: 0;
+    transform-origin: top right;
+    transition: none;
+    text-align: center;
+  }
+  .header .navbar a:hover {
+    border-radius: 0.9rem;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 2.2rem;
+    background: rgb(243, 243, 243);
+    color: var(--black);
+    color: var(--red);
+  }
+
+  .header .navbar.active {
+    transform: scale(1);
+    opacity: 1;
+    transition: 0.2s ease-out;
+  }
+
+  .header .navbar a {
+    font-size: 2rem;
+    display: block;
+    margin: 2.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+.header .navbar a:hover {
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+img:hover,
+img:active {
+  padding: 1%;
+}
+
+.image {
+  flex: 1 1 45rem;
+  padding-left: 10%;
+}
+.image img {
+  width: 90%;
+  padding-bottom: 0%;
+}
+.content {
+  flex: 1 1 45rem;
+}
+.content h2 {
+  font-size: 3.7rem;
+  color: var(--black);
+  line-height: 1.8;
+  text-shadow: var(--text-shadow);
+}
+.content p {
+  font-size: 1.6rem;
+  color: var(--light-color);
+  line-height: 1.8;
+  padding: 1rem 0;
+}
+.content .btn {
+  font-size: 18px;
+}
+#menu-btn:active,
+#menu-btn:hover {
+  color: var(--red);
+}
+section {
+  padding: 2rem 9%;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 10%;
+  padding: 3%;
+  padding-left: 6rem;
+  padding-right: 4rem;
+  border: var(--border);
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  color: var(--black);
+  cursor: pointer;
+  font-size: 1rem;
+  background: rgb(243, 243, 243);
+  text-shadow: 0.1rem 0.1 rem 0 rgba(0, 0, 0, 0.2);
+}
+.btn:hover {
+  background: var(--red);
+  color: #fff;
+}

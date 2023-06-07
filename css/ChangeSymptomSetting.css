@@ -1,0 +1,21 @@
+.row .form4 {
+  margin-right: 51%;
+}
+@media (max-width: 768px) {
+  .row .form4 {
+    margin-right: 0%;
+  }
+}
+body {
+  background-color: var(--white);
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+.notifi-box {
+  display: none;
+}
+.success-msg,
+.error-msg {
+  margin-top: 15rem;
+}

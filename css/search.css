@@ -1,0 +1,21 @@
+input[type="text"] {
+  margin-top: 7%;
+  margin-left: 82%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 4%;
+  border-left: 3px solid red;
+  border-radius: 25px;
+  margin-bottom: 2%;
+}
+input[type="text"]:hover {
+  border-style: solid;
+}
+
+.notifi-box {
+  display: none;
+}
+
+.notifi-box {
+  display: none;
+}

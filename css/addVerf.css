@@ -1,0 +1,138 @@
+:root {
+  --red: #e35454;
+  --green: #16a085;
+  --black: #444;
+  --light-color: #777;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid var(--light-color);
+  --background: rgb(243, 240, 240);
+  --white: #fff;
+  --light-white: rgb(238, 226, 226);
+  --dark-red: #e24343;
+}
+.notifi-box {
+  display: none;
+}
+body {
+  background-color: var(--white);
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+button {
+  width: 60px;
+  height: 40px;
+  background-color: var(--white);
+}
+button:hover {
+  background-color: #e35454;
+}
+
+.feedback .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+i {
+  color: #e35454;
+}
+.row form {
+  margin: 12%;
+  margin-top: 7%;
+
+  text-align: center;
+}
+
+h3 {
+  padding-top: 2rem;
+  margin-top: 20px;
+  margin-left: 5%;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  color: var(--black);
+  line-height: 1.8;
+  text-shadow: var(--text-shadow);
+}
+label {
+  color: var(--black);
+  margin-right: 2%;
+  font-size: 1.7rem;
+}
+.row form .box {
+  width: 69%;
+  height: 20%;
+  margin: 0.7rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+.row form .btn {
+  padding: 1rem 4rem;
+  margin-bottom: 5%;
+}
+.heading {
+  padding-top: 7%;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  text-transform: uppercase;
+  color: var(--black);
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+}
+
+/* For tablets: */
+
+/* For tablets: */
+@media (max-width: 900px) {
+  .row form {
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  label {
+    margin-left: 95rem;
+  }
+  input[type="text"] {
+    margin-left: 40%;
+  }
+}
+@media (max-width: 768px) {
+  .heading {
+    padding-top: 20%;
+  }
+  .notifi-box {
+    display: none;
+  }
+  input[type="text"] {
+    margin-top: 20%;
+    margin-left: 60%;
+  }
+  .row form {
+    margin: 5%;
+    margin-top: 18%;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 5%;
+  }
+
+  h3 {
+    font-size: 2.3rem;
+    padding-top: 3%;
+  }
+  label {
+    color: var(--black);
+    margin-left: 0%;
+    margin-right: 21rem;
+    font-size: 1.5rem;
+  }
+  .row form .box {
+    width: 90%;
+    margin-left: 2rem;
+  }
+}

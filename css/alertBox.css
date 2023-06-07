@@ -1,0 +1,36 @@
+.success-msg,
+.error-msg {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 3px 3px 3px 3px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  font-size: 1.7rem;
+}
+.success-msg {
+  color: #270;
+  background-color: #dff2bf;
+}
+.notifi-box {
+  display: none;
+}
+.error-msg {
+  color: #d8000c;
+  background-color: #ffbaba;
+}
+.msg {
+  margin-top: 8rem;
+}
+
+@media (max-width: 768px) {
+  .success-msg,
+  .error-msg {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+  }
+}

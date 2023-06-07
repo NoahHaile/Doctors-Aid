@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e35454;
+  --green: #16a085;
+  --black: #444;
+  --light-color: #777;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid var(--light-color);
+  --background: rgb(243, 240, 240);
+  --white: #fff;
+  --light-white: rgb(238, 226, 226);
+  --dark-red: #e24343;
+}
+html {
+  font-size: 12px;
+}
+p {
+  color: var(--black);
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(243, 240, 240);
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"]:hover {
+  border-style: solid;
+}
+
+.container {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.accordion {
+  position: relative;
+  width: 350px;
+  margin-left: 40px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.title {
+  margin-top: 20px;
+  margin-left: 25%;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  font-size: 15%;
+  color: var(--black);
+  line-height: 1.8;
+  text-shadow: var(--text-shadow);
+}
+
+.content-accordion {
+  margin-top: 35px;
+  margin-right: 50px;
+}
+
+.question-answer {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: rgb(236, 89, 89);
+
+  padding: 2rem;
+  border-radius: 3rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+
+.accordion-img {
+  position: relative;
+  width: 320px;
+
+  margin-top: 0%;
+  padding-top: 0%;
+}
+
+.title-question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.question-btn {
+  font-size: 1.5rem;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.up-icon {
+  display: none;
+}
+
+.answer {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  display: none;
+  padding-left: 2.6rem;
+  padding-bottom: 2rem;
+}
+
+.show-text .answer {
+  display: block;
+}
+
+.show-text .up-icon {
+  display: inline;
+}
+
+.show-text .down-icon {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .accordion {
+    width: 920px;
+    height: 0;
+    display: flex;
+  }
+
+  .accordion-img {
+    position: relative;
+    width: 420px;
+    top: 88px;
+  }
+
+  .question-answer {
+    width: 380px;
+  }
+
+  .title {
+    margin-top: 50px;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .notifi-box {
+    display: none;
+  }
+}

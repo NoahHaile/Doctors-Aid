@@ -1,0 +1,129 @@
+.in {
+  font-size: 1.5rem;
+}
+.feedback .row .mess h3 {
+  padding: 0%;
+  margin: 0%;
+}
+.feedback .row form .lbl label {
+  font-size: 2rem;
+}
+.feedback .row form {
+  margin-top: 2rem;
+}
+.feedback h2 {
+  padding-top: 2rem;
+  font-size: 2rem;
+  margin-left: 45%;
+}
+select{
+  background-color: var(--white);
+}
+option{
+  background-color: var(--white);
+}
+body{
+  background-color: var(--white);
+}
+.dark-mode{
+  background-color: var(--black);
+}
+.feedback .search {
+  width: 30rem;
+  margin-left: 33rem;
+  border-top-right-radius: 0%;
+  border-bottom-right-radius: 0%;
+}
+.foot{
+  background-color: var(--white);
+}
+.feedback .del {
+  padding: 1rem;
+  font-size: 1.6rem;
+  margin: 0%;
+  background-color: rgb(213, 64, 64);
+  color: white;
+}
+
+select{
+  color:var(--black);
+  background-color: var(--white);
+}
+
+
+.feedback .del:hover {
+  background-color: rgb(224, 43, 43);
+  font-size: 1.8rem;
+}
+.feedback .in {
+  margin-left: 35%;
+  font-size: 1.7rem;
+}
+.feedback .ex {
+  margin-left: 15rem;
+}
+.feedback .row textarea {
+  width: 80%;
+  height: 19rem;
+  padding-bottom: 5rem;
+}
+.feedback .row .mess textarea {
+  background-color: rgb(231, 231, 231);
+  padding-top: 1rem;
+}
+.feedback .row form .lbl label {
+  font-size: 2rem;
+}
+.feedback .row .fone {
+  padding: 5rem;
+  padding-bottom: 5rem;
+}
+.feedback .row .mess {
+  height: 25rem;
+}
+@media (max-width: 768px) {
+  .feedback h2 {
+    padding-left: 60%;
+  }
+  .in {
+    margin-left: 50%;
+  }
+  .feedback .row form .lbl label {
+    font-size: 2rem;
+  }
+
+  .feedback .row textarea {
+    width: 80%;
+    height: 18rem;
+  }
+  .feedback .row .mess textarea {
+    background-color: rgb(231, 231, 231);
+    padding-top: 1rem;
+  }
+  .feedback .row .fone {
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+ label{
+  background-color: var(--white);
+ }
+  .feedback .search {
+    width: 25rem;
+    margin-left: 4rem;
+  }
+
+  .feedback h2 {
+    padding-left: 15rem;
+    margin: 0%;
+  }
+  .feedback .del {
+    padding: 1rem;
+    font-size: 1.4rem;
+  }
+  .feedback .in {
+    margin-left: 5rem;
+  }
+  .feedback .ex {
+    margin-left: 12rem;
+  }
+}

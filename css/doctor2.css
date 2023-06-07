@@ -1,0 +1,76 @@
+.right-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #2e2d2b;
+  margin: 15px;
+  padding: 0;
+}
+.right-container textarea {
+  border: 2px solid #2e2d2b;
+  margin: 45px;
+}
+.right-container span {
+  margin: 5px;
+  margin-left: 15px;
+  font-size: 1.8rem;
+}
+.notifi-box {
+  display: none;
+}
+.modal .modalContent button {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+.fo label {
+  font-size: 1.6rem;
+  padding: 0%;
+  margin: 0%;
+  margin-right: 3rem;
+}
+.fo .la {
+  font-size: 1.6rem;
+  padding: 0%;
+  margin: 0%;
+}
+.lbl .lu {
+  margin-right: 6rem;
+}
+/* For phone*/
+@media (max-width: 768px) {
+  .fo .la {
+    padding: 0%;
+    margin: 0%;
+  }
+  .services .feedback {
+    padding-top: 3rem;
+  }
+  .fs h3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .fe h3 {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+  }
+  .fd {
+    padding-top: 9rem;
+  }
+  .services .feedback .row .imk {
+    margin-top: 0%;
+    padding-top: 0%;
+  }
+  .feedback .row .imt {
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 1rem;
+  }
+  .feedback .row form {
+    padding-top: 0%;
+    margin-top: 0%;
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,29 @@
+.messenger {
+  padding-top: 8%;
+}
+
+@media (max-width: 768px) {
+  .messenger {
+    padding-top: 15%;
+  }
+  .notifi-box {
+    display: none;
+  }
+}
+body {
+  background-color: var(--white);
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+.notifi-box {
+  display: none;
+}
+button {
+  width: 60px;
+  height: 40px;
+  background-color: var(--white);
+}
+button:hover {
+  background-color: #e35454;
+}

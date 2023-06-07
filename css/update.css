@@ -1,0 +1,186 @@
+body{
+  background-color:var(--white);
+}
+
+.feedback .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 5%;
+  margin-top: 0%;
+}
+.feedback {
+  margin-top: 0%;
+  padding-left: 25%;
+}
+.main-feed .body .feedback {
+  padding-left: 5%;
+  padding-right: 14%;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.dark-mode{
+  background:#2e2d2b;
+}
+.dark{
+  width: 60px;
+  height: 40px;
+  background-color: var(--white);
+}
+.dark:hover{
+  background-color: #e35454;
+}
+.lbl {
+  font-size: 1.2rem;
+  padding-right: 45%;
+  color: var(--black);
+}
+.lblCurr {
+  margin-right: 2%;
+  padding-right: 30%;
+}
+.lblCurrPass {
+  margin-right: 12%;
+  padding-right: 80%;
+}
+
+.row form {
+  margin-top: 0;
+  flex: 1 1 50rem;
+
+  border: var(--border);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  padding-bottom: 10%;
+}
+
+h3 {
+  color: var(--black);
+  font-size: 1.9rem;
+  padding-top: 10%;
+  margin-bottom: 5%;
+}
+
+.row form .box {
+  width: 90%;
+  margin: 0.1rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}
+.row form .btn {
+  padding: 1rem 4rem;
+}
+.heading {
+  padding-top: 7%;
+  text-align: center;
+  text-shadow: var(--text-shadow);
+  text-transform: uppercase;
+  color: var(--black);
+  font-size: 3rem;
+  letter-spacing: 0.4rem;
+}
+.img {
+  width: 40%;
+  height: 40%;
+}
+.hom {
+  display: flex;
+
+  align-items: center;
+
+  gap: 1.5rem;
+  padding-top: 10rem;
+  padding-bottom: 5%;
+  background-color:var(--white);
+}
+.btn {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.ima {
+  flex: 1 1 35rem;
+}
+.ima img {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    padding-top: 20%;
+  }
+  .feedback {
+    padding-left: 3%;
+  }
+  .row form {
+    margin-top: 10%;
+    padding: 2%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+  }
+  .opt {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    margin-right: 60%;
+    padding-left: 35%;
+    padding-right: 35%;
+  }
+  .row form .btn {
+    padding-left: 45%;
+    padding-right: 40%;
+  }
+  .lbl {
+    padding-top: 1%;
+    font-size: 1.6rem;
+    padding-right: 35%;
+  }
+  .lblCurr {
+    padding-right: 2%;
+    margin-right: 2%;
+  }
+  .lblCurrPass {
+    padding-right: 2%;
+    margin-right: 2%;
+  }
+  .row form .btn {
+    padding: 2rem 3rem;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+}
+.txtbox {
+  height: 90%;
+  width: 90%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 5rem;
+  padding-bottom: 10%;
+}
+
+select {
+  width: 90%;
+  margin: 0.1rem 0;
+  border-radius: 0.5rem;
+  border: var(--border);
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+  padding: 1rem;
+}

@@ -1,0 +1,11 @@
+.col2{
+  width: 190px;
+  padding: 5%;
+    height: 96%;
+    background-color: #e02020;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    font-size: 20PX;
+  }

@@ -1,0 +1,48 @@
+:root {
+  --red: #e35454;
+  --green: #16a085;
+  --black: #444;
+  --light-color: #777;
+  --box-shadow: 0.5rem 0.5rem 0 rgba(22, 160, 133, 0.2);
+  --text-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.2);
+  --border: 0.2rem solid var(--light-color);
+  --background: rgb(243, 240, 240);
+  --white: #fff;
+  --light-white: rgb(238, 226, 226);
+  --dark-red: #e24343;
+}
+
+body{
+  background-color: var(--white);
+}
+.dark-mode {
+    --white: #2e2d2b;
+    --red: #e35454;
+    --green: #16a085;
+    --black: #ffff;
+    --background: #2e2d2b;
+    --light-white: #eee;
+    --lighting-color: #eee;
+  }
+  .dark {
+  width: 60px;
+  height: 50px;
+  background-color: var(--white);
+  float: right;
+  border-radius: 50%;
+}
+.dark:hover {
+  background-color: #e35454;
+}
+i {
+  color: #e35454;
+}
+p{
+  color: var(--white);
+}
+.foot {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}

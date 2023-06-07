@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.notifi-box h2 {
+  margin-top: 3rem;
+}
+body {
+  background-color: var(--white);
+}
+nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.notifi-box {
+  width: 300px;
+  height: 0px;
+  opacity: 0;
+  background-color: var(--white);
+  position: absolute;
+  top: 63px;
+  right: 35px;
+  transition: 1s opacity, 250ms height;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.notifi-box {
+  display: none;
+}
+.notifi-box h2 .X {
+  float: right;
+  font-size: 19px;
+  margin-right: 0.5rem;
+
+  cursor: pointer;
+}
+.notifi-box h2 .X:hover {
+  font-size: 22px;
+}
+.notifi-box {
+  display: none;
+}
+.notifi-box h2 {
+  font-size: 14px;
+  padding: 10px;
+  background-color: var(--white);
+  color: #999;
+}
+.notifi-box h2 span {
+  color: #f00;
+}
+.notifi-item {
+  display: flex;
+  background-color: var(--white);
+  padding: 15px 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+.notifi-item:hover {
+  background-color: #eee;
+}
+.notifi-item img {
+  display: block;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+.notifi-item .text h4 {
+  color: #777;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.notifi-item .text p {
+  color: #aaa;
+  font-size: 12px;
+}
+/*tablet*/
+@media (max-width: 991px) {
+  .feedback {
+    padding-top: 17%;
+  }
+}
+/*phone*/
+@media (max-width: 768px) {
+  .feedback {
+    padding-top: 17%;
+  }
+
+  .notifi-box {
+    display: none;
+  }
+}

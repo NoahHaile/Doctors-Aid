@@ -1,0 +1,184 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.first-container {
+  margin-top: 130px;
+  width: 95%;
+}
+.first-container .title {
+  margin-bottom: 10px;
+  height: 40px;
+  background-color: darkred;
+  display: flex;
+  align-content: center;
+}
+.dark-mode {
+  background: #2e2d2b;
+}
+.notifi-box {
+  display: none;
+}
+.first-container .title h2 {
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 3.9rem;
+  margin: 3px;
+  margin-top: 7px;
+  margin-left: 20px;
+  color: var(--white);
+  font-size: 1.7rem;
+}
+i {
+  font-size: 1.9rem;
+}
+.first-container .content {
+  border: 2px solid var(--white);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95%;
+  margin-bottom: 50px;
+}
+.first-container .content .right-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid var(--white);
+  margin: 15px;
+}
+.first-container .content .right-container textarea {
+  border: 2px solid black;
+  margin: 15px;
+}
+.first-container .content .right-container span {
+  margin: 5px;
+  margin-left: 15px;
+  font-size: 1.9;
+}
+.first-container .content .left-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.first-container .content .left-container .symptom-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+}
+.buttons {
+  margin-right: 79%;
+}
+.first-container .content .left-container .symptom-section .action {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 1.7rem;
+}
+.first-container .content .left-container .search-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin-top: 25px;
+  font-size: 1.5rem;
+}
+
+.first-container .content .left-container span {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+.first-container .content .left-container .other-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 60%;
+  margin-top: 25px;
+}
+.first-container .content .left-container .search-section .action {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.first-container .content .left-container .symptom-section input {
+  width: 100%;
+  height: 40px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  text-indent: 10px;
+}
+.first-container .content .left-container .other-section select {
+  width: 70%;
+  height: 40px;
+}
+.first-container .content .left-container .symptom-section button {
+  width: 100px;
+  height: 40px;
+  margin-left: 5px;
+  background-color: rgb(128, 128, 145);
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+  border: none;
+}
+.first-container .content .left-container .symptom-section button:hover {
+  background-color: rgb(206, 57, 57);
+}
+.first-container .content .left-container .search-section .action div input {
+  margin-right: 3px;
+  font-family: "Poppins", sans-serif;
+}
+.first-container .content .left-container .other-section button {
+  width: 100px;
+  height: 40px;
+  margin-left: 5px;
+  background-color: darkred;
+  color: var(--white);
+  border: none;
+  font-family: "Poppins", sans-serif;
+}
+.first-container .content .left-container .other-section button:hover {
+  background-color: red;
+}
+@media (max-width: 900px) {
+}
+
+/* For phone*/
+@media (max-width: 768px) {
+  .first-container .content .left-container .symptom-section {
+    width: 90%;
+    margin-left: 50%;
+  }
+  .first-container .content .left-container {
+    width: 100%;
+  }
+  .first-container .content .left-container .other-section {
+    margin-left: 50%;
+    margin-top: 225px;
+  }
+  .first-container .content .left-container .search-section .action div input {
+    margin-left: 20px;
+  }
+  .first-container .content {
+    height: 75%;
+  }
+  .first-container .content .right-container textarea {
+    padding: 4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .first-container .content .right-container {
+    visibility: hidden;
+  }
+  .notifi-box {
+    display: none;
+  }
+}
